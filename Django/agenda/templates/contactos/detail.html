@@ -1,0 +1,14 @@
+{% extends 'layout/base.html' %}
+{% block 'title' %} Ver Contacto {{contact}} {% endblock %}
+{% block 'content' %}
+<a href="{% url 'contact' %}" class="btn-all">Regresar</a>
+<h3>Informacion de tu contacto: {{contact}}</h3>
+<ul class="list">
+    <li><b>Nombre: </b> {{contact.nombre}}</li>
+    <li><b>Apellido: </b> {{contact.apellido}}</li>
+    <li><b>Correo: </b> {{contact.email}}</li>
+    <li><b>Telefono 1: </b> {{contact.telefono_1}}</li>
+    <li><b>Telefono 2; </b> {{contact.telefono_2}}</li>
+    <li><b>Fecha de Inclusion: </b> {{contact.fecha_inclusion}}</li>
+</ul>
+{% endblock %}

@@ -1,0 +1,13 @@
+{"level":"info","message":"mensaje informativo","service":"user-service"}
+{"level":"warn","message":"mensaje precaucion","service":"user-service"}
+{"level":"error","message":"mensaje error","service":"user-service"}
+{"level":"info","message":"mensaje informativo","service":"user-service"}
+{"level":"debug","message":"mensaje debug","service":"user-service"}
+{"level":"warn","message":"mensaje precaucion","service":"user-service"}
+{"level":"error","message":"mensaje error","service":"user-service"}
+{"level":"info","message":"mensaje informativo","service":"user-service"}
+{"level":"debug","message":"mensaje debug","service":"user-service"}
+{"level":"warn","message":"mensaje precaucion","service":"user-service"}
+{"level":"error","message":"mensaje error","service":"user-service"}
+{"level":"error","message":"mensaje error","service":"user-service"}
+{"level":"error","message":"El error es Error: Debe ser un numero","service":"user-service"}

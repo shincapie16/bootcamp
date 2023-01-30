@@ -1,0 +1,158 @@
+:root{
+    --color-primario: #101820FF;
+    --color-secundario: ;
+    --color-texto: #FEE715FF ;
+    --font-title: Journey Planner;
+    --font-text: Retroica;
+
+}
+/*Main Settings*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-text);
+    color: var(--color-primario);
+}
+
+@font-face {
+    font-family: Journey Planner;
+    src: url('../fonts/Journey\ Planner.ttf');
+}
+@font-face {
+    font-family: Retroica;
+    src: url('../fonts/Retroica.ttf');
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--font-title);
+}
+/*End Main Settings*/
+/*Layout Settings*/
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 80px;
+    background-color: var(--color-primario);
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+}
+nav ul a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    text-transform: uppercase;
+    font-family: var(--font-title);
+}
+nav ul a:hover{
+    color: var(--color-texto);
+}
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    margin: 50px;
+    justify-content: flex-start;
+    align-items: center;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    border: 5px solid var(--color-texto);
+    width: 50%;
+    list-style-type: none;    
+}
+.list li{
+    padding: 15px;
+    border-bottom: 1px solid var(--color-texto);
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.btn{
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+}
+.btn-detail{
+    background-color: rgb(19, 238, 11);
+    color: white;
+}
+.btn-detail:hover{
+    background-color: var(--color-primario);
+    color: var(--color-texto);
+}
+.btn-edit{
+    background-color: rgb(255, 196, 1);
+    color: white;
+}
+.btn-edit:hover{
+    background-color: var(--color-primario);
+    color: var(--color-texto);
+}
+.btn-delete{
+    background-color: rgb(228, 60, 60);
+    color: white;
+}
+.btn-delete:hover{
+    background-color: var(--color-primario);
+    color: var(--color-texto);
+}
+.btn-add{
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    width: 50%;
+    background-color: rgb(59, 131, 238);
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+}
+.btn-add:hover{
+    background-color: var(--color-primario);
+    color: var(--color-texto);
+}
+.btn-search{
+    background-color: rgb(59, 131, 238);
+    color: white;
+    width: 14%;
+    outline: none;
+    border: 0;
+    box-shadow: 0;
+    cursor: pointer;
+}
+.btn-search:hover{
+    background-color: var(--color-primario);
+    color: var(--color-texto);
+}
+.btn-all{
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+.btn-all:hover{
+    color: rgb(59, 131, 238);
+}
+.search{
+    margin: 20px;
+    width: 50%;
+}
+.search-bar{
+    padding: 5px;
+    width: 85%;
+}
+
+.alert-success{
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(22, 158, 43);
+    color: white;
+}
+/*End Layout Settings*/
