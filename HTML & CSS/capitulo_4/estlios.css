@@ -1,0 +1,30 @@
+h1{
+    color: red;
+}
+/*Comentario*/
+p{
+    color: blue;
+    font-size: 16pt;
+}
+
+#noticia{
+    color: green;
+    font-size: 12pt;
+}
+
+p#noticia2{
+    color: tomato;
+}
+.encabezado{
+    font-size: 24pt;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+/* El asterisco es para seleccionar todos*/
+*{
+    color: orange
+}
+.titulo, .autor{
+    color: greenyellow;
+    text-decoration: dotted;
+}

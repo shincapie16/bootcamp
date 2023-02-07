@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@0;1&display=swap');
+
+.colores{
+    color: orangered;
+}
+.fondo{
+    background-color: rgb(119, 119, 207);
+    background-image: url("https://www.elegantthemes.com/blog/wp-content/uploads/2013/09/bg-1-full.jpg");
+    background-position: center center;
+}
+
+.ancho{
+    background-color: green ; 
+    width: 100px;
+}
+.altura{
+    background-color: aquamarine;
+    height: 500px;      /* No es ideal para el responsive*/
+}
+
+.tarjeta{
+    border-style: solid;
+    border-color: rgb(119, 119, 207);
+    border-width: 1px ;
+    padding: 10px; /*Espacio interno del contenido 10px 20px es largo y alto*/
+    margin: 200px; /*Espacio externo  del contenido 10px 20px es largo y alto*/
+}
+html{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12pt;
+}
